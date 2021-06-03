@@ -16,15 +16,20 @@ body,h1,h2,h3,h4,h5,h6{
     list-style: none;
     display: inline-block;
     padding: 0 19px;
-   
+   position: relative;
 }
 .menu ul li a {
     text-decoration: none;
     line-height: 72px;
     color: black;
 }
-.menu ul li a:hover{}
+.menu ul li a:hover{
 
+}
+
+.menu ul li ul{
+position: absolute;
+}
 .about-info {
     margin-top: 159px;
 }
@@ -112,4 +117,16 @@ margin-top: 55px;
 .get-access {
     box-shadow: 3px 0px 7px #8490ffc2;
     border: 2px solid #8490FF;
+}
+
+.content-section    {
+    background: #F9F9FF;
+}
+.content-about-writing {
+    margin-top: 148px;
+    margin-left: 52px;
+}
+.form-button-contact{
+    background: #17A2B8;
+    color: white;
 }
