@@ -130,3 +130,26 @@ margin-top: 55px;
     background: #17A2B8;
     color: white;
 }
+.menu ul li{
+    position: relative;
+}
+.menu ul li ul{
+    position: absolute;
+    left: 0;
+    top: 100%;
+    background-color: #8490FF;
+    width: 150px;
+    opacity: 0;
+    visibility: hidden;
+    transform-origin: none;
+    transition: .4s;
+    transform: scaleY(0);
+    transform-origin: top;
+}
+
+.menu ul li:hover ul{
+    opacity: 1;
+    visibility: visible;
+    transform: scaleY(1);
+
+}
